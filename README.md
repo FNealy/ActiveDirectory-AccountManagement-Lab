@@ -1,5 +1,5 @@
 
-# 🖥️ Lab 2: User Account Management – Password Resets & Account Lockouts
+# 🖥️ User Account Management – Password Resets & Account Lockouts
 
 ## 🔹 Overview
 This lab demonstrates common **help desk tasks in Active Directory**: resetting passwords, unlocking accounts, and troubleshooting account lockouts.  
