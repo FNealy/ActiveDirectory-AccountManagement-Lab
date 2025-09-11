@@ -59,17 +59,16 @@ The goal is to simulate realistic end-user issues and show proper administrative
 ### 4. Unlock Account
 - In ADUC → right-click locked user → **Unlock Account**  
 - Document troubleshooting steps and verify login works  
+<img width="388" height="448" alt="Screen Shot 2025-09-11 at 1 30 28 PM" src="https://github.com/user-attachments/assets/87513a22-ee0b-4b70-9d97-3ed4b2027334" />
 
-📸 Screenshot: ![Unlock Account](./screenshots/password_resets/03_unlock_account.png)
-
----
 
 ### 5. Test End-User Login
 - Log in as the user after password reset  
 - Confirm forced password change worked  
 - Ensure password complies with **Group Policy complexity**  
 
-📸 Screenshot: ![User Login](./screenshots/password_resets/04_user_login.png)
+<img width="1440" height="900" alt="Screen Shot 2025-09-11 at 1 32 05 PM" src="https://github.com/user-attachments/assets/b0da226f-b8ca-4ca3-93b6-796ee5dd95f9" />
+
 
 ---
 
