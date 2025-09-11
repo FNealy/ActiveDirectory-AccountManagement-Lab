@@ -12,8 +12,6 @@ The goal is to simulate realistic end-user issues and show proper administrative
   - `DC-1` → Domain Controller + DNS  
   - `Client-1` → Domain-joined workstation  
 
-📊 **Diagram (reuse AD Lab diagram)**:  
-![AD Lab Diagram](./diagrams/ad_lab_diagram.png)
 
 ---
 
