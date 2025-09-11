@@ -74,7 +74,10 @@ The goal is to simulate realistic end-user issues and show proper administrative
 
 ## 🔹 Troubleshooting
 - **Issue:** User still cannot log in after reset  
-  - **Fix:** Verify DNS points to DC-1 private IP  
+  - **Fix:** Verify DNS points to DC-1 private IP
+    <img width="514" height="285" alt="Screen Shot 2025-09-11 at 1 36 18 PM" src="https://github.com/user-attachments/assets/a94bb57e-1ff9-4163-b1ae-9595060b0e85" />
+<img width="961" height="154" alt="Screen Shot 2025-09-11 at 1 36 42 PM" src="https://github.com/user-attachments/assets/bd7f393f-0100-4d65-9744-9058a5168a2d" />
+
   - Ensure user is not entering old cached credentials  
 - **Issue:** Password does not meet complexity  
   - **Fix:** Check Group Policy → Password Policy  
