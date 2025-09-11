@@ -51,6 +51,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 - Attempt wrong password multiple times on `Client-1`  
 - User account becomes **locked out**  
 - On DC-1 → **Event Viewer → Security logs** → locate **lockout source**  
+<img width="807" height="524" alt="Screen Shot 2025-09-11 at 1 17 34 PM" src="https://github.com/user-attachments/assets/7285a055-7413-4a74-8bde-1a6d8fa81ad8" />
 
 
 ### 4. Unlock Account
