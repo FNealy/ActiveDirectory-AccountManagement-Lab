@@ -1,6 +1,8 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+  <img src="https://i.imgur.com/2rlRGkK.png" alt="File Share & NTFS Permissions Logo" width="200"/>
 </p>
+
+
 
 # User Account Management – Password Resets & Account Lockouts
 
