@@ -43,6 +43,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 <img width="747" height="461" alt="Screen Shot 2025-09-11 at 12 49 12 PM" src="https://github.com/user-attachments/assets/ec9d3b9f-1cf4-45cd-aa97-aadf31f266d4" />
 <img width="433" height="236" alt="Screen Shot 2025-09-11 at 12 50 08 PM" src="https://github.com/user-attachments/assets/f72aa545-f67a-4154-ab53-c3d4aaf9ca16" />
 <img width="784" height="423" alt="Screen Shot 2025-09-11 at 12 59 06 PM" src="https://github.com/user-attachments/assets/aca73239-b26d-4119-abcb-74dae7ac9af8" />
+<img width="781" height="307" alt="Screen Shot 2025-09-11 at 1 06 23 PM" src="https://github.com/user-attachments/assets/344ec018-a515-4b0c-8fa9-ad92ca881f84" />
 
 ---
 
@@ -51,9 +52,6 @@ The goal is to simulate realistic end-user issues and show proper administrative
 - User account becomes **locked out**  
 - On DC-1 → **Event Viewer → Security logs** → locate **lockout source**  
 
-📸 Screenshot: ![Event Viewer Lockout](./screenshots/password_resets/02_event_viewer.png)
-
----
 
 ### 4. Unlock Account
 - In ADUC → right-click locked user → **Unlock Account**  
