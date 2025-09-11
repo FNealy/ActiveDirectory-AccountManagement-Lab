@@ -52,6 +52,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 - User account becomes **locked out**  
 - On DC-1 → **Event Viewer → Security logs** → locate **lockout source**  
 <img width="807" height="524" alt="Screen Shot 2025-09-11 at 1 17 34 PM" src="https://github.com/user-attachments/assets/7285a055-7413-4a74-8bde-1a6d8fa81ad8" />
+<img width="641" height="302" alt="Screen Shot 2025-09-11 at 1 26 45 PM" src="https://github.com/user-attachments/assets/4d448e0f-7c0e-4f5e-8583-87c0fb297957" />
 
 
 ### 4. Unlock Account
