@@ -16,7 +16,42 @@ The goal is to simulate realistic end-user issues and show proper administrative
 - **Azure Virtual Network (VNet)**: `10.0.0.0/24`  
 - **Virtual Machines**:
   - `DC-1` → Domain Controller + DNS  
-  - `Client-1` → Domain-joined workstation  
+  - `Client-1` → Domain-joined workstation
+ 
+
+---
+
+## 🔹 Environments & Technologies Used
+- **Microsoft Azure** (cloud infrastructure)  
+- **Azure Virtual Network (VNet)** for connectivity between VMs  
+- **Active Directory Domain Services (AD DS)** for centralized authentication  
+- **DNS** for name resolution  
+- **Event Viewer** for auditing and troubleshooting  
+- **Remote Desktop Protocol (RDP)** for VM access and management  
+
+---
+
+## 🔹 Operating Systems Used
+- **Windows Server 2019 Datacenter** → `DC-1` (Domain Controller + DNS)  
+- **Windows 10 Pro** → `Client-1` (Domain-joined workstation)  
+
+---
+
+## 🔹 Prerequisites
+- Active **Microsoft Azure subscription**  
+- Working knowledge of:  
+  - Active Directory Users and Computers (ADUC)  
+  - DNS configuration in Windows Server  
+  - Basic troubleshooting with Event Viewer  
+- **VM Setup**:  
+  - `DC-1`: Static private IP assigned  
+  - `Client-1`: Configured to use DC-1 as DNS  
+- **Group Policy Configurations**:  
+  - Account lockout policy enabled (threshold, duration, reset time)  
+  - Password complexity requirements enforced  
+
+---
+
 
 
 ---
