@@ -32,7 +32,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 ---
 
 ## 🔹 Operating Systems Used
-- **Windows Server 2019 Datacenter** → `DC-1` (Domain Controller + DNS)  
+- **Windows Server 2022 Datacenter** → `DC-1` (Domain Controller + DNS)  
 - **Windows 10 Pro** → `Client-1` (Domain-joined workstation)  
 
 ---
