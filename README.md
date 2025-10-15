@@ -6,66 +6,25 @@
 
 # User Account Management – Password Resets & Account Lockouts
 
-## 🔹 Overview
-This lab demonstrates common **help desk tasks in Active Directory**: resetting passwords, unlocking accounts, and troubleshooting account lockouts.  
+## This lab demonstrates common **help desk tasks in Active Directory**: resetting passwords, unlocking accounts, and troubleshooting account lockouts.  
 The goal is to simulate realistic end-user issues and show proper administrative responses.
 
 ---
 
-## 🔹 Architecture
-- **Azure Virtual Network (VNet)**: `10.0.0.0/24`  
-- **Virtual Machines**:
-  - `DC-1` → Domain Controller + DNS  
-  - `Client-1` → Domain-joined workstation
- 
+## Environments & Technologies Used
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Active Directory Domain Services
+- PowerShell
 
 ---
 
-## 🔹 Environments & Technologies Used
-- **Microsoft Azure** (cloud infrastructure)  
-- **Azure Virtual Network (VNet)** for connectivity between VMs  
-- **Active Directory Domain Services (AD DS)** for centralized authentication  
-- **DNS** for name resolution  
-- **Event Viewer** for auditing and troubleshooting  
-- **Remote Desktop Protocol (RDP)** for VM access and management  
-
+## Operating Systems Used
+- Windows Server 2022   
+- Windows 10 Pro
 ---
 
-## 🔹 Operating Systems Used
-- **Windows Server 2022 Datacenter** → `DC-1` (Domain Controller + DNS)  
-- **Windows 10 Pro** → `Client-1` (Domain-joined workstation)  
-
----
-
-## 🔹 Prerequisites
-- Active **Microsoft Azure subscription**  
-- Working knowledge of:  
-  - Active Directory Users and Computers (ADUC)  
-  - DNS configuration in Windows Server  
-  - Basic troubleshooting with Event Viewer  
-- **VM Setup**:  
-  - `DC-1`: Static private IP assigned  
-  - `Client-1`: Configured to use DC-1 as DNS  
-- **Group Policy Configurations**:  
-  - Account lockout policy enabled (threshold, duration, reset time)  
-  - Password complexity requirements enforced  
-
----
-
-
-
----
-
-## 🔹 Features Implemented
-✅ User account creation (test users: Charlie, Dave)  
-✅ Password reset via ADUC  
-✅ Forced password change at next logon  
-✅ Account lockout simulation and troubleshooting  
-✅ Event Viewer auditing for lockout source  
-
----
-
-## 🔹 Implementation Steps
+<h2>Deployment and Configuration Steps</h2>
 
 ### 1. Create Test Users
 - On DC-1 → **Active Directory Users and Computers (ADUC)**  
@@ -113,7 +72,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 
 ---
 
-## 🔹 Troubleshooting
+## Troubleshooting
 - **Issue:** User still cannot log in after reset  
   - **Fix:** Verify DNS points to DC-1 private IP  
     <img width="514" height="285" alt="Screen Shot 2025-09-11 at 1 36 18 PM" src="https://github.com/user-attachments/assets/a94bb57e-1ff9-4163-b1ae-9595060b0e85" />
@@ -125,7 +84,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 
 ---
 
-## 🔹 Skills Demonstrated
+## Skills Demonstrated
 - AD user account management  
 - Password resets & account unlocks  
 - Event Viewer auditing  
@@ -134,7 +93,7 @@ The goal is to simulate realistic end-user issues and show proper administrative
 
 ---
 
-## 🔹 Next Steps / Enhancements
+## Next Steps / Enhancements
 - Document **frequent lockout patterns** to automate alerts  
 - Implement **self-service password reset portal**  
 - Track **user training metrics** to reduce help desk tickets  
